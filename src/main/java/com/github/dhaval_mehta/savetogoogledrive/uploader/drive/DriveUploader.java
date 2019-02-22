@@ -119,13 +119,16 @@ abstract class DriveUploader implements Uploader {
 
 		int statusCode = connection.getResponseCode();
 
-		if (statusCode == HttpStatus.OK.value())
+		if (statusCode == HttpStatus.OK.value()){
 			createdFileUrl = new URL(connection.getHeaderField("Location"));
 		        Logger.getLogger(getClass().getName()).log(Level.INFO, "createdFileUrl:"+createdFileUrl);
-		else if (statusCode == HttpStatus.UNAUTHORIZED.value())
+		}	
+		else if (statusCode == HttpStatus.UNAUTHORIZED.value()){
 			throw new ApiException(HttpStatus.UNAUTHORIZED, "Your session is expired");
-		else
+		}
+		else{
 			throw new ApiException(HttpStatus.INTERNAL_SERVER_ERROR, "Cannot create new file in google dirve.");
+		}
 
 	}
 
