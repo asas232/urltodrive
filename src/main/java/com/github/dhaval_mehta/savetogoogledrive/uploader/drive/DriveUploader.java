@@ -121,7 +121,6 @@ abstract class DriveUploader implements Uploader {
 
 		if (statusCode == HttpStatus.OK.value()){
 			createdFileUrl = new URL(connection.getHeaderField("Location"));
-			Logger.getLogger(getClass().getName()).log(Level.INFO, "createdFileUrl:"+createdFileUrl);
 		}
 		else if (statusCode == HttpStatus.UNAUTHORIZED.value()){
 			throw new ApiException(HttpStatus.UNAUTHORIZED, "Your session is expired");
