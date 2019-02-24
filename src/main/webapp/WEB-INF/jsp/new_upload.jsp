@@ -15,7 +15,7 @@
     <jsp:attribute name="body_area">
         <ul class="breadcrumb">
             <div class="container-fluid">
-                <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
                 <li class="breadcrumb-item active">Forms</li>
             </div>
         </ul>
