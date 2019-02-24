@@ -48,7 +48,7 @@
                 <div class="navbar-holder d-flex align-items-center justify-content-between">
                     <!-- Navbar Header-->
                     <div class="navbar-header">
-                        <!-- Navbar Brand --><a href="index.html" class="navbar-brand">
+                        <!-- Navbar Brand --><a href="#" class="navbar-brand" style="color:#404958;cursor:default;">
                         <div class="brand-text brand-big hidden-lg-down"><span>Save to</span> <strong>Drive</strong>
                         </div>
                         <div class="brand-text brand-small"><strong>SD</strong></div>
@@ -96,9 +96,6 @@
                 <li><a href="${pageContext.request.contextPath}"><i class="icon-home"></i>Home</a></li>
                 <li><a href="${pageContext.request.contextPath}/new_upload"><i class="fa fa-cloud-upload"></i>New upload</a></li>
                 <li><a href="${pageContext.request.contextPath}/uploads"> <i class="fa fa-tachometer"></i>Your Uploads </a></li>
-                <li><a href="${pageContext.request.contextPath}/suggest_an_idea"> <i class="fa fa-thumbs-o-up"></i>Suggest an Idea</a></li>
-                <li><a href="${pageContext.request.contextPath}/bug_report"> <i class="fa fa-bug"></i>Report a bug </a></li>
-                <li><a href="${pageContext.request.contextPath}/contact_us"> <i class="fa fa-envelope-o "></i>Contact us</a></li>
             </ul>
         </nav>
         <div class="content-inner" id="content-inner">
