@@ -48,7 +48,7 @@
                 <div class="navbar-holder d-flex align-items-center justify-content-between">
                     <!-- Navbar Header-->
                     <div class="navbar-header">
-                        <!-- Navbar Brand --><a href="index.html" class="navbar-brand">
+                        <!-- Navbar Brand --><a href="/" class="navbar-brand">
                         <div class="brand-text brand-big hidden-lg-down"><span>Save to</span> <strong>Drive</strong>
                         </div>
                         <div class="brand-text brand-small"><strong>SD</strong></div>
@@ -59,8 +59,7 @@
                     <!-- Navbar Menu -->
                     <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
                         <!-- Logout    -->
-                        <li class="nav-item"><a href="/logout" class="nav-link logout">Logout<i
-                                class="fa fa-sign-out"></i></a></li>
+                    
                     </ul>
                 </div>
             </div>
@@ -93,12 +92,9 @@
             </div>
             <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
             <ul class="list-unstyled">
-                <li><a href="${pageContext.request.contextPath}"><i class="icon-home"></i>Home</a></li>
+                <li><a href="/"><i class="icon-home"></i>Home</a></li>
                 <li><a href="${pageContext.request.contextPath}/new_upload"><i class="fa fa-cloud-upload"></i>New upload</a></li>
                 <li><a href="${pageContext.request.contextPath}/uploads"> <i class="fa fa-tachometer"></i>Your Uploads </a></li>
-                <li><a href="${pageContext.request.contextPath}/suggest_an_idea"> <i class="fa fa-thumbs-o-up"></i>Suggest an Idea</a></li>
-                <li><a href="${pageContext.request.contextPath}/bug_report"> <i class="fa fa-bug"></i>Report a bug </a></li>
-                <li><a href="${pageContext.request.contextPath}/contact_us"> <i class="fa fa-envelope-o "></i>Contact us</a></li>
             </ul>
         </nav>
         <div class="content-inner" id="content-inner">
@@ -115,13 +111,12 @@
                             <p>Design by Dhaval Mehta and Aditya Krishnakumar</p>
                             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
                         </div>
-                        <div class="col-sm-12 text-center" style="margin-top: 10px">
-                            <a href="${pageContext.request.contextPath}/privacy.html">PRIVACY POLICY</a>
+						 <div class="col-sm-12 text-center" style="margin-top: 10px">
+                            <a href="${pageContext.request.contextPath}/html/privacy.html">PRIVACY POLICY</a>
                             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
                         </div>
                     </div>
                 </div>
-
             </footer>
         </div>
     </div>
