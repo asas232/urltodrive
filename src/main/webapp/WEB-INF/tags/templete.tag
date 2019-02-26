@@ -116,7 +116,7 @@
                             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
                         </div>
                         <div class="col-sm-12 text-center" style="margin-top: 10px">
-                            <a href="${pageContext.request.contextPath}/html/privacy.html">PRIVACY POLICY</a>
+                            <a href="${pageContext.request.contextPath}/privacy.html">PRIVACY POLICY</a>
                             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
                         </div>
                     </div>
